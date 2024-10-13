@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionar Ofertas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script defer src="js/ofertas.js"></script>
+</head>
+<body>
+    <h1>Gestionar Ofertas</h1>
+    <button onclick="obtenerOfertas()">Obtener Todas las Ofertas</button>
+    <div id="lista-ofertas"></div>
+
+    <h2>Agregar Nueva Oferta</h2>
+    <form id="formulario-oferta">
+        <input type="text" id="titulo" placeholder="Título" required>
+        <input type="text" id="descripcion" placeholder="Descripción" required>
+        <input type="text" id="tipoCuidado" placeholder="Tipo de Cuidado" required>
+        <input type="text" id="ubicacion" placeholder="Ubicación" required>
+        <input type="text" id="horario" placeholder="Horario" required>
+        <input type="text" id="salario" placeholder="Salario" required>
+        <button type="submit">Agregar Oferta</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionar Enfermeros</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script defer src="js/enfermeros.js"></script>
+</head>
+<body>
+    <h1>Gestionar Enfermeros</h1>
+    <button onclick="obtenerEnfermeros()">Obtener Todos los Enfermeros</button>
+    <div id="lista-enfermeros"></div>
+
+    <h2>Agregar Nuevo Enfermero</h2>
+    <form id="formulario-enfermero">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="email" id="email" placeholder="Correo Electrónico" required>
+        <input type="text" id="certificaciones" placeholder="Certificaciones" required>
+        <input type="text" id="especialidad" placeholder="Especialidad" required>
+        <button type="submit">Agregar Enfermero</button>
+    </form>
+</body>
+</html>
