@@ -1,4 +1,4 @@
-const apiBaseUrl = 'http://localhost:3000/api'; // Cambia esta URL si la API está desplegada en otro lado
+const apiBaseUrl = 'https://api-nodejs-pab6.onrender.com/'; // Cambia esta URL si la API está desplegada en otro lado
 const token = 'supersecreto'; // Token de autenticación
 
 // Obtener todos los usuarios
